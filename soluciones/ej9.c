@@ -1,6 +1,10 @@
-
 #include <stdio.h>
 int main(){
-    // Resolver ejercicio 9
+    int a[5];
+
+    printf("Direccion de memoria de: %p",&a[-1]);
+    printf("\n");
+    printf("Direccion de memoria de: %p", &a[5]);
+    
     return 0;
 }
